@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3d3d5c;
+}
+
+main{
+    width: 100%;
+    background-color: #3d3d5c;
+    
+}
+
+.box1{
+    width: 200px;
+    height: 300px;
+    background-color: #3f82f4;
+    position: absolute;
+    right: 110px;
+    bottom: -20px;
+    transition: 5s;
+}
+
+.box1:hover{
+    width: 150px;
+    height: 500px;
+    background-color: #f10eb8;
+    transition: 1s;
+}
+
+.box2{
+    width: 1000px;
+    height: 500px;
+    background-color: beige;
+    position: relative;
+    margin: 100px auto;
+    z-index: 1;
+}
+
+.utext{
+    padding: 30px 30px 15px;
+    background-color: beige;
+    bottom: 300px; left: 20;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.utel{
+    width: 90px;
+    float: left;
+}
+
+.utext1{
+    font-size: 25px;
+}
+.utext2{
+    font-size: 15px;
+}
+
+.uloc{
+    float: left;
+}
+
+.utext3{
+    font-size: 25px;
+}
+
+.utext4{
+    font-size: 15px;
+}
+
+.utime{
+    float: left;
+}
+
+.utext5{
+    font-size: 25px;
+}
+
+.utext6{
+    font-size: 15px;
+}
+
+.otext1{
+    position: relative;
+    margin: 100px auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.otext{
+    position: absolute;
+    bottom: 450px; right: 17%;
+    background-color: beige;
+    font-size: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.otext2{
+    position: absolute;
+    border-style: none;
+    bottom: 320px; right: 14%;
+    background-color: beige;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.otext3{
+    position: absolute;
+    border-style: none;
+    bottom: 250px; right: 14%;
+    background-color: beige;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.otext4{
+    position: absolute;
+    border-style: none;
+    bottom: 180px; right: 14%;
+    background-color: beige;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.otext5{
+    position: absolute;
+    bottom: 110px; right: 14%;
+    font-size: 25px;
+    border-style: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 32%;
+    color: #ffffff !important;
+    background-color: #33325f !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.box3{
+    width: 150px;
+    height: 300px;
+    background-color: #f1680e;
+    position: absolute;
+    left: 130px;
+    bottom: 150px;
+    transition: 5s;
+}
+
+.box3:hover{
+    width: 150px;
+    height: 200px;
+    background-color: #adf10e;
+    transition: 1s;
+}
+
+

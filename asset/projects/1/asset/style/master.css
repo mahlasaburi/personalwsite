@@ -1,0 +1,350 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* first part */
+
+.first{
+    width: 100%;
+    height: 600px;
+    background-color: #3b04dc;
+}
+
+.first>img{
+    position: relative;
+}
+figcaption{
+    font-size: 8rem;
+    margin: 20px 0 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 20%;left: 30%;
+}
+
+/* second part */
+
+.second{
+    width: 100%;
+    height: 500px;
+}
+
+.secondpart{
+    width: 50%;
+}
+
+.secondpart>h1{
+    font-size: 6rem;
+    position: relative;
+    margin: 44px 40px 0 110px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-size: 4.5rem;
+    /* margin-top: 120px; */
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.secondpart::before{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.line1{
+    width: 130px;
+    transform-origin: left center 0;
+    margin: 100px 0 0 120px;
+    border: 3px solid #ffb71c;
+}
+
+
+.secondpart>h6{
+    margin: 0 20px 0 110px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.8;
+    font-size: 1rem;
+    /* margin-top: 0; */
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.secondpart>p{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 20px 0 110px;
+    text-align: justify;
+}
+
+.secondpart2{
+    /* width: calc(100% - 160px);
+    height: 500px; */
+    position: relative;
+}
+
+.para{
+    position: absolute;
+    bottom: 10px;
+    right: 15%;
+    line-height: 50px;
+}
+
+/* third part */
+
+.third{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.agency{
+    color: #ffb71c00;
+    overflow: hidden;
+    font-size: 35px;
+    position: absolute;
+    left: 112px; top: 28px;
+}
+
+.third>figure:nth-of-type(1):hover .agency{
+    width: 300px;
+    height: 300px;
+    background-color: #3a04dc7a;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 112px; top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agency2{
+    color: #ffb71c00;
+    overflow: hidden;
+    font-size: 35px;
+    position: absolute;
+    left: 39%; top: 28px;
+}
+
+.third>figure:nth-of-type(2):hover .agency2{
+    width: 300px;
+    height: 300px;
+    background-color: #3a04dc67;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 39%; top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agency3{
+    color: #ffb71c00;
+    overflow: hidden;
+    font-size: 35px;
+    position: absolute;
+    left: 69%; top: 28px;
+}
+
+.third>figure:nth-of-type(3):hover .agency3{
+    width: 300px;
+    height: 300px;
+    background-color: #3a04dc92;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 69.5%; top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fourth part */
+
+.forth{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    /* background-color: red; */
+}
+
+.imgfour{
+    position: absolute;
+    bottom: 0;left: 0;
+}
+
+.boxfour{
+    width: 60%;
+    height: 650px;
+    position: absolute;
+    top: 100px;right: 0;
+    background-color: #3b04dc;
+    z-index: -1;
+}
+
+.boxfour>h2{
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: #ffb71c;
+    padding: 150px 150px;
+}
+
+.boxfour>h6{
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-top: -115px;
+    margin-bottom: 20px;
+    padding: 0 150px;
+    color: #fff;
+}
+
+.boxfour>p{
+    font-weight: 400;
+    line-height: 1.9;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20pX;
+    padding: 0 150px;
+    color: #fff;
+}
+
+
+.btn1 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  width: 25%;
+  will-change: transform;
+  margin: 20px 150px;
+}
+
+
+/* fivth part */
+
+.fivth{
+    width: 100%;
+    height: 500px;
+}
+
+.fivepart{
+    width: 50%;
+}
+
+.fivepart>h1{
+    font-size: 3rem;
+    position: relative;
+    margin: 44px 40px 0 110px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    /* margin-top: 120px; */
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.fivepart::before{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.line2{
+    width: 130px;
+    transform-origin: left center 0;
+    margin: 100px 0 0 120px;
+    border: 3px solid #ffb71c;
+}
+
+
+.fivepart>h6{
+    margin: 0 20px 0 110px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.8;
+    font-size: 1rem;
+    /* margin-top: 0; */
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.fivepart>p{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 20px 0 110px;
+    text-align: justify;
+}
+
+.fivepart2{
+    /* width: calc(100% - 160px);
+    height: 500px; */
+    position: relative;
+}
+
+.parafive{
+    position: absolute;
+    bottom: 10px;
+    right: 30%;
+    line-height: 50px;
+}
+
+.footer{
+    width: 100%;height: 100px;
+    background-color: #000;
+    color: #ffb71c;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
